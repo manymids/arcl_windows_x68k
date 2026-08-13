@@ -10,9 +10,6 @@ px68k/system/keropi/config
 **/sram.dat
 **/px68k-arcl.log
 
-# Build output - regenerate via the steps in README.md
-/windows/build/
-
 # Backup of px68k-libretro's original nested .git (upstream history, not needed in this repo's history - see commit message)
 /archive/px68k-libretro.git.bak/
 
