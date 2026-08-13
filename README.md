@@ -61,7 +61,7 @@ cmake -S windows -B windows/build -G "MinGW Makefiles"
 cmake --build windows/build -j
 ```
 
-成功すると `windows/build/px68k.exe` が生成されます。SDL2 と zlib は静的リンクされる構成のため、生成された実行ファイルには通常、別途 SDL2 DLL や zlib DLL を同梱する必要はありません。
+成功すると `windows/build/arcl_windows_x68k.exe` が生成されます。SDL2 と zlib は静的リンクされる構成のため、生成された実行ファイルには通常、別途 SDL2 DLL や zlib DLL を同梱する必要はありません。
 
 ビルド設定を最初から作り直したい場合は `windows/build/` を削除してから、上記の `cmake -S` を再実行してください。
 
@@ -70,7 +70,7 @@ cmake --build windows/build -j
 次のコマンドで SDL2 ウィンドウを開き、指定したディスクイメージを起動します。
 
 ```powershell
-windows\build\px68k.exe --system-dir px68k\system C:\X68000\HUMAN302.XDF
+windows\build\arcl_windows_x68k.exe --system-dir px68k\system C:\X68000\HUMAN302.XDF
 ```
 
 通常モードでは、GUI のイベント処理・描画・エミュレーションを同一スレッドで処理します。実行速度はホスト性能に依存し、実機相当の速度に固定されません。
@@ -85,7 +85,7 @@ windows\build\px68k.exe --system-dir px68k\system C:\X68000\HUMAN302.XDF
 CPU クロックおよび RAM 容量は次のように指定できます。
 
 ```powershell
-windows\build\px68k.exe --system-dir px68k\system --clock 25 --ram 8 C:\X68000\HUMAN302.XDF
+windows\build\arcl_windows_x68k.exe --system-dir px68k\system --clock 25 --ram 8 C:\X68000\HUMAN302.XDF
 ```
 
 - `--clock`: `10`、`16`、`25`、`33`、`66`、`100` MHz（既定値: `10`）
@@ -96,7 +96,7 @@ windows\build\px68k.exe --system-dir px68k\system --clock 25 --ram 8 C:\X68000\H
 MCP モードでは、実行ファイルが標準入力・標準出力で改行区切りの JSON-RPC 2.0 を処理します。標準出力は MCP プロトコル専用のため、端末上で直接操作する用途には向きません。MCP クライアントから stdio サーバーとして起動してください。
 
 ```powershell
-windows\build\px68k.exe --mcp --mcp-layers all --system-dir px68k\system C:\X68000\HUMAN302.XDF
+windows\build\arcl_windows_x68k.exe --mcp --mcp-layers all --system-dir px68k\system C:\X68000\HUMAN302.XDF
 ```
 
 MCP モードでも SDL2 ウィンドウを表示します。AI に操作を任せながら画面を確認でき、`F5` により GUI 側から一時停止・再開できます。起動直後のエミュレータは停止状態です。クライアントから `arcl_run` または `arcl_resume` を呼び出すまで、エミュレーションは進みません。

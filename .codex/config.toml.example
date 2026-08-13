@@ -1,3 +1,3 @@
 [mcp_servers.arcl_windows_x68k]
-command = 'windows/build/px68k.exe'
+command = 'windows/build/arcl_windows_x68k.exe'
 args = ['--mcp','--mcp-layers','all','--system-dir','px68k/system','<path-to-your-disk-image.XDF>']

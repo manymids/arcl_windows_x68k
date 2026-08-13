@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "arcl_windows_x68k": {
-      "command": "windows/build/px68k.exe",
+      "command": "windows/build/arcl_windows_x68k.exe",
       "args": [
         "--mcp",
         "--mcp-layers",

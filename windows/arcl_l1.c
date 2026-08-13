@@ -533,7 +533,7 @@ static int handle_mount(arcl_l1_t *l1, const char *request_json,
 
 /* Weak by design (x68k_mcp.md 6.2): this core has no WindrvXM-equivalent
  * host share, so this just lists a host directory's contents at whatever
- * permission the px68k.exe process itself has - there is no root
+ * permission the arcl_windows_x68k.exe process itself has - there is no root
  * restriction yet (arcl_common_spec.md 5.4 flags that as required
  * hardening; tracked as future work, not implemented here). */
 static int handle_host_dir(arcl_l1_t *l1, const char *request_json,

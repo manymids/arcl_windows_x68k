@@ -58,14 +58,14 @@ cmake -S windows -B windows/build -G "MinGW Makefiles"
 cmake --build windows/build -j
 ```
 
-The executable is written to `windows/build/px68k.exe`. SDL2 and zlib are configured for static linking, so a normal build does not require separately distributing SDL2 or zlib DLLs. To rebuild from a clean CMake configuration, remove `windows/build/` and run the configure command again.
+The executable is written to `windows/build/arcl_windows_x68k.exe`. SDL2 and zlib are configured for static linking, so a normal build does not require separately distributing SDL2 or zlib DLLs. To rebuild from a clean CMake configuration, remove `windows/build/` and run the configure command again.
 
 ## Run in interactive mode
 
 The following command opens the SDL2 window and boots the selected disk image:
 
 ```powershell
-windows\build\px68k.exe --system-dir px68k\system C:\X68000\HUMAN302.XDF
+windows\build\arcl_windows_x68k.exe --system-dir px68k\system C:\X68000\HUMAN302.XDF
 ```
 
 Interactive mode processes GUI events, rendering, and emulation on one thread. Its speed depends on the host and is not limited to original hardware speed.
@@ -80,7 +80,7 @@ Interactive mode processes GUI events, rendering, and emulation on one thread. I
 CPU clock and RAM size can be selected at startup:
 
 ```powershell
-windows\build\px68k.exe --system-dir px68k\system --clock 25 --ram 8 C:\X68000\HUMAN302.XDF
+windows\build\arcl_windows_x68k.exe --system-dir px68k\system --clock 25 --ram 8 C:\X68000\HUMAN302.XDF
 ```
 
 - `--clock`: `10`, `16`, `25`, `33`, `66`, or `100` MHz (default: `10`)
@@ -91,7 +91,7 @@ windows\build\px68k.exe --system-dir px68k\system --clock 25 --ram 8 C:\X68000\H
 In MCP mode, the executable processes newline-delimited JSON-RPC 2.0 through standard input and output. Standard output is reserved for MCP messages, so start it as a stdio server from an MCP client rather than using it directly in a terminal.
 
 ```powershell
-windows\build\px68k.exe --mcp --mcp-layers all --system-dir px68k\system C:\X68000\HUMAN302.XDF
+windows\build\arcl_windows_x68k.exe --mcp --mcp-layers all --system-dir px68k\system C:\X68000\HUMAN302.XDF
 ```
 
 The SDL2 window remains available in MCP mode. A person can observe the agent's actions and use `F5` to pause or resume execution. The emulator starts paused; it advances only after the client calls `arcl_run` or `arcl_resume`.

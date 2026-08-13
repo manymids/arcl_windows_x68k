@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named px68k
+# Target rules for targets named arcl_windows_x68k
 
 # Build rule for target.
-px68k: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 px68k
-.PHONY : px68k
+arcl_windows_x68k: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arcl_windows_x68k
+.PHONY : arcl_windows_x68k
 
 # fast build rule for target.
-px68k/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/build
-.PHONY : px68k/fast
+arcl_windows_x68k/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/build
+.PHONY : arcl_windows_x68k/fast
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.obj: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.obj
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.obj
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.i: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.i
@@ -141,7 +141,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.i: E_/arcl_windows_x68k/px68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.i
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.s: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.s
@@ -149,7 +149,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.s: E_/arcl_windows_x68k/px68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.cpp.s
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.obj: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.obj
@@ -157,7 +157,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.obj: E_/arcl_windows_x68k/px68k-
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.obj
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.i: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.i
@@ -165,7 +165,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.i: E_/arcl_windows_x68k/px68k-li
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.i
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.s: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.s
@@ -173,7 +173,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.s: E_/arcl_windows_x68k/px68k-li
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmgen.cpp.s
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.obj: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.obj
@@ -181,7 +181,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.obj: E_/arcl_windows_x68k/px68
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.obj
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.i: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.i
@@ -189,7 +189,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.i: E_/arcl_windows_x68k/px68k-
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.i
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.s: E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.s
@@ -197,7 +197,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.s: E_/arcl_windows_x68k/px68k-
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/fmtimer.cpp.s
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.obj: E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.obj
@@ -205,7 +205,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.obj
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.i: E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.i
@@ -213,7 +213,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.i
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.s: E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.s
@@ -221,7 +221,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/opm.cpp.s
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.obj: E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.obj
@@ -229,7 +229,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.obj: E_/arcl_windows_x68k/px68k-l
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.obj
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.i: E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.i
@@ -237,7 +237,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.i: E_/arcl_windows_x68k/px68k-lib
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.i
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.s: E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.s
@@ -245,7 +245,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.s: E_/arcl_windows_x68k/px68k-lib
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/opna.cpp.s
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.obj: E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.obj
@@ -253,7 +253,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.obj
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.i: E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.i
@@ -261,7 +261,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.i
 
 E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.s: E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.s
@@ -269,7 +269,7 @@ E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/fmgen/psg.cpp.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.obj
@@ -277,7 +277,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.o
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.i
@@ -285,7 +285,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.i
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.s
@@ -293,7 +293,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.s
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_posix_string.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.obj
@@ -301,7 +301,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.obj: 
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.i
@@ -309,7 +309,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.i: E_
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.s
@@ -317,7 +317,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.s: E_
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_snprintf.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.obj
@@ -325,7 +325,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.obj
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.i
@@ -333,7 +333,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.i: 
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.s
@@ -341,7 +341,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.s: 
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strcasestr.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.obj
@@ -349,7 +349,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.obj: E_/a
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.i
@@ -357,7 +357,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.i: E_/arc
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.s
@@ -365,7 +365,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.s: E_/arc
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/compat_strl.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.obj
@@ -373,7 +373,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.obj: E_/ar
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.i
@@ -381,7 +381,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.i: E_/arcl
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.s
@@ -389,7 +389,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.s: E_/arcl
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/compat/fopen_utf8.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.obj
@@ -397,7 +397,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.obj: 
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.i
@@ -405,7 +405,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.i: E_
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.s
@@ -413,7 +413,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.s: E_
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/encodings/encoding_utf.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.obj
@@ -421,7 +421,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.obj: E_/arcl_
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.i
@@ -429,7 +429,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.i: E_/arcl_wi
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.s
@@ -437,7 +437,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.s: E_/arcl_wi
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.obj
@@ -445,7 +445,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.obj: E_/ar
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.i
@@ -453,7 +453,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.i: E_/arcl
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.s
@@ -461,7 +461,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.s: E_/arcl
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/file_path_io.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.obj
@@ -469,7 +469,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.obj: E_/ar
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.i
@@ -477,7 +477,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.i: E_/arcl
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.s
@@ -485,7 +485,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.s: E_/arcl
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/file/retro_dirent.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.obj
@@ -493,7 +493,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.obj: E_/
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.i
@@ -501,7 +501,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.i: E_/ar
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.s
@@ -509,7 +509,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.s: E_/ar
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.obj
@@ -517,7 +517,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transfor
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.i
@@ -525,7 +525,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transfor
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.s
@@ -533,7 +533,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transfor
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/streams/file_stream_transforms.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.obj
@@ -541,7 +541,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.obj: E_/arc
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.i
@@ -549,7 +549,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.i: E_/arcl_
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.s
@@ -557,7 +557,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.s: E_/arcl_
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/string/stdstring.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.obj
@@ -565,7 +565,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.obj: E_/arcl_wind
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.i
@@ -573,7 +573,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.i: E_/arcl_window
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.s
@@ -581,7 +581,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.s: E_/arcl_window
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/time/rtime.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.obj: E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.obj
@@ -589,7 +589,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.obj: 
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.i: E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.i
@@ -597,7 +597,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.i: E_
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.s: E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.s
@@ -605,7 +605,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.s: E_
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro-common/vfs/vfs_implementation.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro.obj: E_/arcl_windows_x68k/px68k-libretro/libretro.c.obj
@@ -613,7 +613,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro.obj: E_/arcl_windows_x68k/px68k-lib
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro.i: E_/arcl_windows_x68k/px68k-libretro/libretro.c.i
@@ -621,7 +621,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro.i: E_/arcl_windows_x68k/px68k-libre
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro.s: E_/arcl_windows_x68k/px68k-libretro/libretro.c.s
@@ -629,7 +629,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro.s: E_/arcl_windows_x68k/px68k-libre
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.obj
@@ -637,7 +637,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.obj: E_/arcl_windows_x68k/px6
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.i: E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.i
@@ -645,7 +645,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.i: E_/arcl_windows_x68k/px68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.s: E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.s
@@ -653,7 +653,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.s: E_/arcl_windows_x68k/px68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/dosio.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.obj
@@ -661,7 +661,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.obj: E_/arcl_windows_x68k/px6
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.i: E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.i
@@ -669,7 +669,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.i: E_/arcl_windows_x68k/px68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.s: E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.s
@@ -677,7 +677,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.s: E_/arcl_windows_x68k/px68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/dswin.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/fake.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.obj
@@ -685,7 +685,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/fake.obj: E_/arcl_windows_x68k/px68
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/fake.i: E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.i
@@ -693,7 +693,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/fake.i: E_/arcl_windows_x68k/px68k-
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/fake.s: E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.s
@@ -701,7 +701,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/fake.s: E_/arcl_windows_x68k/px68k-
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/fake.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.obj
@@ -709,7 +709,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.obj: E_/arcl_windows_x68k/
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.i: E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.i
@@ -717,7 +717,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.i: E_/arcl_windows_x68k/px
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.s: E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.s
@@ -725,7 +725,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.s: E_/arcl_windows_x68k/px
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/joystick.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.obj
@@ -733,7 +733,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.obj: E_/arcl_windows_x68k/
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.i: E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.i
@@ -741,7 +741,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.i: E_/arcl_windows_x68k/px
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.s: E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.s
@@ -749,7 +749,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.s: E_/arcl_windows_x68k/px
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/keyboard.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.obj
@@ -757,7 +757,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.obj: E_/arcl_windows_x68k/px6
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.i: E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.i
@@ -765,7 +765,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.i: E_/arcl_windows_x68k/px68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.s: E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.s
@@ -773,7 +773,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.s: E_/arcl_windows_x68k/px68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/mouse.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/peace.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.obj
@@ -781,7 +781,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/peace.obj: E_/arcl_windows_x68k/px6
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/peace.i: E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.i
@@ -789,7 +789,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/peace.i: E_/arcl_windows_x68k/px68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/peace.s: E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.s
@@ -797,7 +797,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/peace.s: E_/arcl_windows_x68k/px68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/peace.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/prop.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.obj
@@ -805,7 +805,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/prop.obj: E_/arcl_windows_x68k/px68
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/prop.i: E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.i
@@ -813,7 +813,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/prop.i: E_/arcl_windows_x68k/px68k-
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/prop.s: E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.s
@@ -821,7 +821,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/prop.s: E_/arcl_windows_x68k/px68k-
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/prop.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/state.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.obj
@@ -829,7 +829,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/state.obj: E_/arcl_windows_x68k/px6
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/state.i: E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.i
@@ -837,7 +837,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/state.i: E_/arcl_windows_x68k/px68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/state.s: E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.s
@@ -845,7 +845,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/state.s: E_/arcl_windows_x68k/px68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/state.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/timer.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.obj
@@ -853,7 +853,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/timer.obj: E_/arcl_windows_x68k/px6
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/timer.i: E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.i
@@ -861,7 +861,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/timer.i: E_/arcl_windows_x68k/px68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/timer.s: E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.s
@@ -869,7 +869,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/timer.s: E_/arcl_windows_x68k/px68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/timer.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.obj
@@ -877,7 +877,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.obj: E_/arcl_windows_x68k/p
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.i: E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.i
@@ -885,7 +885,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.i: E_/arcl_windows_x68k/px6
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.s: E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.s
@@ -893,7 +893,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.s: E_/arcl_windows_x68k/px6
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/windraw.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/winui.obj: E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.obj
@@ -901,7 +901,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/winui.obj: E_/arcl_windows_x68k/px6
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/winui.i: E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.i
@@ -909,7 +909,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/winui.i: E_/arcl_windows_x68k/px68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/libretro/winui.s: E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.s
@@ -917,7 +917,7 @@ E_/arcl_windows_x68k/px68k-libretro/libretro/winui.s: E_/arcl_windows_x68k/px68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/libretro/winui.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.obj: E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.obj
@@ -925,7 +925,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.obj: E_/arcl_windows_x68k/p
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.i: E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.i
@@ -933,7 +933,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.i: E_/arcl_windows_x68k/px6
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.s: E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.s
@@ -941,7 +941,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.s: E_/arcl_windows_x68k/px6
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68k.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.obj: E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.obj
@@ -949,7 +949,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.obj: E_/arcl_windows_x6
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.i: E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.i
@@ -957,7 +957,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.i: E_/arcl_windows_x68k
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.s: E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.s
@@ -965,7 +965,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.s: E_/arcl_windows_x68k
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/c68k/c68kexec.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.obj: E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.obj
@@ -973,7 +973,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.obj: E_/arcl_windows_x68k/px68
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.i: E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.i
@@ -981,7 +981,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.i: E_/arcl_windows_x68k/px68k-
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.s: E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.s
@@ -989,7 +989,7 @@ E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.s: E_/arcl_windows_x68k/px68k-
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/m68000/m68000.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.obj
@@ -997,7 +997,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.obj: E_/arcl_windows_x68k/px68k-l
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.i: E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.i
@@ -1005,7 +1005,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.i: E_/arcl_windows_x68k/px68k-lib
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.s: E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.s
@@ -1013,7 +1013,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.s: E_/arcl_windows_x68k/px68k-lib
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/adpcm.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/bg.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.obj
@@ -1021,7 +1021,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/bg.obj: E_/arcl_windows_x68k/px68k-libr
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/bg.i: E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.i
@@ -1029,7 +1029,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/bg.i: E_/arcl_windows_x68k/px68k-libret
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/bg.s: E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.s
@@ -1037,7 +1037,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/bg.s: E_/arcl_windows_x68k/px68k-libret
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/bg.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.obj
@@ -1045,7 +1045,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.i: E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.i
@@ -1053,7 +1053,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.s: E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.s
@@ -1061,7 +1061,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/crtc.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.obj
@@ -1069,7 +1069,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.obj: E_/arcl_windows_x68k/px68
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.i: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.i
@@ -1077,7 +1077,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.i: E_/arcl_windows_x68k/px68k-
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.s: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.s
@@ -1085,7 +1085,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.s: E_/arcl_windows_x68k/px68k-
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_d88.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.obj
@@ -1093,7 +1093,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.obj: E_/arcl_windows_x68k/px68
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.i: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.i
@@ -1101,7 +1101,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.i: E_/arcl_windows_x68k/px68k-
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.s: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.s
@@ -1109,7 +1109,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.s: E_/arcl_windows_x68k/px68k-
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_dim.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.obj
@@ -1117,7 +1117,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.obj: E_/arcl_windows_x68k/px68
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.i: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.i
@@ -1125,7 +1125,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.i: E_/arcl_windows_x68k/px68k-
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.s: E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.s
@@ -1133,7 +1133,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.s: E_/arcl_windows_x68k/px68k-
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/disk_xdf.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.obj
@@ -1141,7 +1141,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.i: E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.i
@@ -1149,7 +1149,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.s: E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.s
@@ -1157,7 +1157,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/dmac.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.obj
@@ -1165,7 +1165,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.obj: E_/arcl_windows_x68k/px68k-lib
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.i: E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.i
@@ -1173,7 +1173,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.i: E_/arcl_windows_x68k/px68k-libre
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.s: E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.s
@@ -1181,7 +1181,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.s: E_/arcl_windows_x68k/px68k-libre
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/fdc.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.obj
@@ -1189,7 +1189,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.obj: E_/arcl_windows_x68k/px68k-lib
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.i: E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.i
@@ -1197,7 +1197,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.i: E_/arcl_windows_x68k/px68k-libre
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.s: E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.s
@@ -1205,7 +1205,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.s: E_/arcl_windows_x68k/px68k-libre
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/fdd.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.obj
@@ -1213,7 +1213,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.obj: E_/arcl_windows_x68k/px68k-l
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.i: E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.i
@@ -1221,7 +1221,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.i: E_/arcl_windows_x68k/px68k-lib
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.s: E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.s
@@ -1229,7 +1229,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.s: E_/arcl_windows_x68k/px68k-lib
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/gvram.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.obj
@@ -1237,7 +1237,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.obj: E_/arcl_windows_x68k/px68k-lib
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.i: E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.i
@@ -1245,7 +1245,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.i: E_/arcl_windows_x68k/px68k-libre
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.s: E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.s
@@ -1253,7 +1253,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.s: E_/arcl_windows_x68k/px68k-libre
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/ioc.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.obj
@@ -1261,7 +1261,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.i: E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.i
@@ -1269,7 +1269,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.s: E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.s
@@ -1277,7 +1277,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/irqh.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.obj
@@ -1285,7 +1285,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.obj: E_/arcl_windows_x68k/px68
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.i: E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.i
@@ -1293,7 +1293,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.i: E_/arcl_windows_x68k/px68k-
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.s: E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.s
@@ -1301,7 +1301,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.s: E_/arcl_windows_x68k/px68k-
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mem_wrap.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.obj
@@ -1309,7 +1309,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.obj: E_/arcl_windows_x68k/px68k
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.i: E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.i
@@ -1317,7 +1317,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.i: E_/arcl_windows_x68k/px68k-l
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.s: E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.s
@@ -1325,7 +1325,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.s: E_/arcl_windows_x68k/px68k-l
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mercury.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.obj
@@ -1333,7 +1333,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.obj: E_/arcl_windows_x68k/px68k-lib
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.i: E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.i
@@ -1341,7 +1341,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.i: E_/arcl_windows_x68k/px68k-libre
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.s: E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.s
@@ -1349,7 +1349,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.s: E_/arcl_windows_x68k/px68k-libre
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/mfp.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/midi.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.obj
@@ -1357,7 +1357,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/midi.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/midi.i: E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.i
@@ -1365,7 +1365,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/midi.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/midi.s: E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.s
@@ -1373,7 +1373,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/midi.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/midi.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/palette.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.obj
@@ -1381,7 +1381,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/palette.obj: E_/arcl_windows_x68k/px68k
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/palette.i: E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.i
@@ -1389,7 +1389,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/palette.i: E_/arcl_windows_x68k/px68k-l
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/palette.s: E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.s
@@ -1397,7 +1397,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/palette.s: E_/arcl_windows_x68k/px68k-l
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/palette.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/pia.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.obj
@@ -1405,7 +1405,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/pia.obj: E_/arcl_windows_x68k/px68k-lib
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/pia.i: E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.i
@@ -1413,7 +1413,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/pia.i: E_/arcl_windows_x68k/px68k-libre
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/pia.s: E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.s
@@ -1421,7 +1421,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/pia.s: E_/arcl_windows_x68k/px68k-libre
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/pia.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.obj
@@ -1429,7 +1429,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.obj: E_/arcl_windows_x68k/px68k-lib
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.i: E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.i
@@ -1437,7 +1437,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.i: E_/arcl_windows_x68k/px68k-libre
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.s: E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.s
@@ -1445,7 +1445,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.s: E_/arcl_windows_x68k/px68k-libre
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/rtc.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.obj
@@ -1453,7 +1453,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.i: E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.i
@@ -1461,7 +1461,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.s: E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.s
@@ -1469,7 +1469,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sasi.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/scc.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.obj
@@ -1477,7 +1477,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/scc.obj: E_/arcl_windows_x68k/px68k-lib
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/scc.i: E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.i
@@ -1485,7 +1485,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/scc.i: E_/arcl_windows_x68k/px68k-libre
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/scc.s: E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.s
@@ -1493,7 +1493,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/scc.s: E_/arcl_windows_x68k/px68k-libre
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/scc.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.obj
@@ -1501,7 +1501,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.i: E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.i
@@ -1509,7 +1509,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.s: E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.s
@@ -1517,7 +1517,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/scsi.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sram.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.obj
@@ -1525,7 +1525,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sram.obj: E_/arcl_windows_x68k/px68k-li
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sram.i: E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.i
@@ -1533,7 +1533,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sram.i: E_/arcl_windows_x68k/px68k-libr
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sram.s: E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.s
@@ -1541,7 +1541,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sram.s: E_/arcl_windows_x68k/px68k-libr
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sram.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.obj
@@ -1549,7 +1549,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.obj: E_/arcl_windows_x68k/px68k
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.i: E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.i
@@ -1557,7 +1557,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.i: E_/arcl_windows_x68k/px68k-l
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.s: E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.s
@@ -1565,7 +1565,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.s: E_/arcl_windows_x68k/px68k-l
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/sysport.c.s
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.obj: E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.obj
@@ -1573,7 +1573,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.obj: E_/arcl_windows_x68k/px68k-l
 
 # target to build an object file
 E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.obj
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.obj
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.i: E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.i
@@ -1581,7 +1581,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.i: E_/arcl_windows_x68k/px68k-lib
 
 # target to preprocess a source file
 E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.i
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.i
 
 E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.s: E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.s
@@ -1589,7 +1589,7 @@ E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.s: E_/arcl_windows_x68k/px68k-lib
 
 # target to generate assembly for a file
 E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.s
 .PHONY : E_/arcl_windows_x68k/px68k-libretro/x68k/tvram.c.s
 
 arcl_control.obj: arcl_control.c.obj
@@ -1597,7 +1597,7 @@ arcl_control.obj: arcl_control.c.obj
 
 # target to build an object file
 arcl_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_control.c.obj
 .PHONY : arcl_control.c.obj
 
 arcl_control.i: arcl_control.c.i
@@ -1605,7 +1605,7 @@ arcl_control.i: arcl_control.c.i
 
 # target to preprocess a source file
 arcl_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_control.c.i
 .PHONY : arcl_control.c.i
 
 arcl_control.s: arcl_control.c.s
@@ -1613,7 +1613,7 @@ arcl_control.s: arcl_control.c.s
 
 # target to generate assembly for a file
 arcl_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_control.c.s
 .PHONY : arcl_control.c.s
 
 arcl_l0.obj: arcl_l0.c.obj
@@ -1621,7 +1621,7 @@ arcl_l0.obj: arcl_l0.c.obj
 
 # target to build an object file
 arcl_l0.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l0.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l0.c.obj
 .PHONY : arcl_l0.c.obj
 
 arcl_l0.i: arcl_l0.c.i
@@ -1629,7 +1629,7 @@ arcl_l0.i: arcl_l0.c.i
 
 # target to preprocess a source file
 arcl_l0.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l0.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l0.c.i
 .PHONY : arcl_l0.c.i
 
 arcl_l0.s: arcl_l0.c.s
@@ -1637,7 +1637,7 @@ arcl_l0.s: arcl_l0.c.s
 
 # target to generate assembly for a file
 arcl_l0.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l0.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l0.c.s
 .PHONY : arcl_l0.c.s
 
 arcl_l1.obj: arcl_l1.c.obj
@@ -1645,7 +1645,7 @@ arcl_l1.obj: arcl_l1.c.obj
 
 # target to build an object file
 arcl_l1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l1.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l1.c.obj
 .PHONY : arcl_l1.c.obj
 
 arcl_l1.i: arcl_l1.c.i
@@ -1653,7 +1653,7 @@ arcl_l1.i: arcl_l1.c.i
 
 # target to preprocess a source file
 arcl_l1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l1.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l1.c.i
 .PHONY : arcl_l1.c.i
 
 arcl_l1.s: arcl_l1.c.s
@@ -1661,7 +1661,7 @@ arcl_l1.s: arcl_l1.c.s
 
 # target to generate assembly for a file
 arcl_l1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l1.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l1.c.s
 .PHONY : arcl_l1.c.s
 
 arcl_l2.obj: arcl_l2.c.obj
@@ -1669,7 +1669,7 @@ arcl_l2.obj: arcl_l2.c.obj
 
 # target to build an object file
 arcl_l2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l2.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l2.c.obj
 .PHONY : arcl_l2.c.obj
 
 arcl_l2.i: arcl_l2.c.i
@@ -1677,7 +1677,7 @@ arcl_l2.i: arcl_l2.c.i
 
 # target to preprocess a source file
 arcl_l2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l2.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l2.c.i
 .PHONY : arcl_l2.c.i
 
 arcl_l2.s: arcl_l2.c.s
@@ -1685,7 +1685,7 @@ arcl_l2.s: arcl_l2.c.s
 
 # target to generate assembly for a file
 arcl_l2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l2.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l2.c.s
 .PHONY : arcl_l2.c.s
 
 arcl_l3.obj: arcl_l3.c.obj
@@ -1693,7 +1693,7 @@ arcl_l3.obj: arcl_l3.c.obj
 
 # target to build an object file
 arcl_l3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l3.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l3.c.obj
 .PHONY : arcl_l3.c.obj
 
 arcl_l3.i: arcl_l3.c.i
@@ -1701,7 +1701,7 @@ arcl_l3.i: arcl_l3.c.i
 
 # target to preprocess a source file
 arcl_l3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l3.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l3.c.i
 .PHONY : arcl_l3.c.i
 
 arcl_l3.s: arcl_l3.c.s
@@ -1709,7 +1709,7 @@ arcl_l3.s: arcl_l3.c.s
 
 # target to generate assembly for a file
 arcl_l3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l3.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l3.c.s
 .PHONY : arcl_l3.c.s
 
 arcl_l4.obj: arcl_l4.c.obj
@@ -1717,7 +1717,7 @@ arcl_l4.obj: arcl_l4.c.obj
 
 # target to build an object file
 arcl_l4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l4.c.obj
 .PHONY : arcl_l4.c.obj
 
 arcl_l4.i: arcl_l4.c.i
@@ -1725,7 +1725,7 @@ arcl_l4.i: arcl_l4.c.i
 
 # target to preprocess a source file
 arcl_l4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l4.c.i
 .PHONY : arcl_l4.c.i
 
 arcl_l4.s: arcl_l4.c.s
@@ -1733,7 +1733,7 @@ arcl_l4.s: arcl_l4.c.s
 
 # target to generate assembly for a file
 arcl_l4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_l4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_l4.c.s
 .PHONY : arcl_l4.c.s
 
 arcl_opm.obj: arcl_opm.c.obj
@@ -1741,7 +1741,7 @@ arcl_opm.obj: arcl_opm.c.obj
 
 # target to build an object file
 arcl_opm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_opm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_opm.c.obj
 .PHONY : arcl_opm.c.obj
 
 arcl_opm.i: arcl_opm.c.i
@@ -1749,7 +1749,7 @@ arcl_opm.i: arcl_opm.c.i
 
 # target to preprocess a source file
 arcl_opm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_opm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_opm.c.i
 .PHONY : arcl_opm.c.i
 
 arcl_opm.s: arcl_opm.c.s
@@ -1757,7 +1757,7 @@ arcl_opm.s: arcl_opm.c.s
 
 # target to generate assembly for a file
 arcl_opm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_opm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_opm.c.s
 .PHONY : arcl_opm.c.s
 
 arcl_watchpoint.obj: arcl_watchpoint.c.obj
@@ -1765,7 +1765,7 @@ arcl_watchpoint.obj: arcl_watchpoint.c.obj
 
 # target to build an object file
 arcl_watchpoint.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_watchpoint.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_watchpoint.c.obj
 .PHONY : arcl_watchpoint.c.obj
 
 arcl_watchpoint.i: arcl_watchpoint.c.i
@@ -1773,7 +1773,7 @@ arcl_watchpoint.i: arcl_watchpoint.c.i
 
 # target to preprocess a source file
 arcl_watchpoint.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_watchpoint.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_watchpoint.c.i
 .PHONY : arcl_watchpoint.c.i
 
 arcl_watchpoint.s: arcl_watchpoint.c.s
@@ -1781,7 +1781,7 @@ arcl_watchpoint.s: arcl_watchpoint.c.s
 
 # target to generate assembly for a file
 arcl_watchpoint.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/arcl_watchpoint.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/arcl_watchpoint.c.s
 .PHONY : arcl_watchpoint.c.s
 
 base64.obj: base64.c.obj
@@ -1789,7 +1789,7 @@ base64.obj: base64.c.obj
 
 # target to build an object file
 base64.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/base64.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/base64.c.obj
 .PHONY : base64.c.obj
 
 base64.i: base64.c.i
@@ -1797,7 +1797,7 @@ base64.i: base64.c.i
 
 # target to preprocess a source file
 base64.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/base64.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/base64.c.i
 .PHONY : base64.c.i
 
 base64.s: base64.c.s
@@ -1805,7 +1805,7 @@ base64.s: base64.c.s
 
 # target to generate assembly for a file
 base64.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/base64.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/base64.c.s
 .PHONY : base64.c.s
 
 frontend_core.obj: frontend_core.c.obj
@@ -1813,7 +1813,7 @@ frontend_core.obj: frontend_core.c.obj
 
 # target to build an object file
 frontend_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/frontend_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/frontend_core.c.obj
 .PHONY : frontend_core.c.obj
 
 frontend_core.i: frontend_core.c.i
@@ -1821,7 +1821,7 @@ frontend_core.i: frontend_core.c.i
 
 # target to preprocess a source file
 frontend_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/frontend_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/frontend_core.c.i
 .PHONY : frontend_core.c.i
 
 frontend_core.s: frontend_core.c.s
@@ -1829,7 +1829,7 @@ frontend_core.s: frontend_core.c.s
 
 # target to generate assembly for a file
 frontend_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/frontend_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/frontend_core.c.s
 .PHONY : frontend_core.c.s
 
 m68k_disasm.obj: m68k_disasm.c.obj
@@ -1837,7 +1837,7 @@ m68k_disasm.obj: m68k_disasm.c.obj
 
 # target to build an object file
 m68k_disasm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/m68k_disasm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/m68k_disasm.c.obj
 .PHONY : m68k_disasm.c.obj
 
 m68k_disasm.i: m68k_disasm.c.i
@@ -1845,7 +1845,7 @@ m68k_disasm.i: m68k_disasm.c.i
 
 # target to preprocess a source file
 m68k_disasm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/m68k_disasm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/m68k_disasm.c.i
 .PHONY : m68k_disasm.c.i
 
 m68k_disasm.s: m68k_disasm.c.s
@@ -1853,7 +1853,7 @@ m68k_disasm.s: m68k_disasm.c.s
 
 # target to generate assembly for a file
 m68k_disasm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/m68k_disasm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/m68k_disasm.c.s
 .PHONY : m68k_disasm.c.s
 
 main.obj: main.c.obj
@@ -1861,7 +1861,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -1869,7 +1869,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -1877,7 +1877,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/main.c.s
 .PHONY : main.c.s
 
 mcp_json.obj: mcp_json.c.obj
@@ -1885,7 +1885,7 @@ mcp_json.obj: mcp_json.c.obj
 
 # target to build an object file
 mcp_json.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mcp_json.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mcp_json.c.obj
 .PHONY : mcp_json.c.obj
 
 mcp_json.i: mcp_json.c.i
@@ -1893,7 +1893,7 @@ mcp_json.i: mcp_json.c.i
 
 # target to preprocess a source file
 mcp_json.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mcp_json.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mcp_json.c.i
 .PHONY : mcp_json.c.i
 
 mcp_json.s: mcp_json.c.s
@@ -1901,7 +1901,7 @@ mcp_json.s: mcp_json.c.s
 
 # target to generate assembly for a file
 mcp_json.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mcp_json.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mcp_json.c.s
 .PHONY : mcp_json.c.s
 
 mcp_server.obj: mcp_server.c.obj
@@ -1909,7 +1909,7 @@ mcp_server.obj: mcp_server.c.obj
 
 # target to build an object file
 mcp_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mcp_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mcp_server.c.obj
 .PHONY : mcp_server.c.obj
 
 mcp_server.i: mcp_server.c.i
@@ -1917,7 +1917,7 @@ mcp_server.i: mcp_server.c.i
 
 # target to preprocess a source file
 mcp_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mcp_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mcp_server.c.i
 .PHONY : mcp_server.c.i
 
 mcp_server.s: mcp_server.c.s
@@ -1925,7 +1925,7 @@ mcp_server.s: mcp_server.c.s
 
 # target to generate assembly for a file
 mcp_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mcp_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mcp_server.c.s
 .PHONY : mcp_server.c.s
 
 mutex_lock.obj: mutex_lock.c.obj
@@ -1933,7 +1933,7 @@ mutex_lock.obj: mutex_lock.c.obj
 
 # target to build an object file
 mutex_lock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mutex_lock.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mutex_lock.c.obj
 .PHONY : mutex_lock.c.obj
 
 mutex_lock.i: mutex_lock.c.i
@@ -1941,7 +1941,7 @@ mutex_lock.i: mutex_lock.c.i
 
 # target to preprocess a source file
 mutex_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mutex_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mutex_lock.c.i
 .PHONY : mutex_lock.c.i
 
 mutex_lock.s: mutex_lock.c.s
@@ -1949,7 +1949,7 @@ mutex_lock.s: mutex_lock.c.s
 
 # target to generate assembly for a file
 mutex_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/mutex_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/mutex_lock.c.s
 .PHONY : mutex_lock.c.s
 
 png_write.obj: png_write.c.obj
@@ -1957,7 +1957,7 @@ png_write.obj: png_write.c.obj
 
 # target to build an object file
 png_write.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/png_write.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/png_write.c.obj
 .PHONY : png_write.c.obj
 
 png_write.i: png_write.c.i
@@ -1965,7 +1965,7 @@ png_write.i: png_write.c.i
 
 # target to preprocess a source file
 png_write.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/png_write.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/png_write.c.i
 .PHONY : png_write.c.i
 
 png_write.s: png_write.c.s
@@ -1973,7 +1973,7 @@ png_write.s: png_write.c.s
 
 # target to generate assembly for a file
 png_write.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/png_write.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/png_write.c.s
 .PHONY : png_write.c.s
 
 wav_write.obj: wav_write.c.obj
@@ -1981,7 +1981,7 @@ wav_write.obj: wav_write.c.obj
 
 # target to build an object file
 wav_write.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/wav_write.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/wav_write.c.obj
 .PHONY : wav_write.c.obj
 
 wav_write.i: wav_write.c.i
@@ -1989,7 +1989,7 @@ wav_write.i: wav_write.c.i
 
 # target to preprocess a source file
 wav_write.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/wav_write.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/wav_write.c.i
 .PHONY : wav_write.c.i
 
 wav_write.s: wav_write.c.s
@@ -1997,7 +1997,7 @@ wav_write.s: wav_write.c.s
 
 # target to generate assembly for a file
 wav_write.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\px68k.dir\build.make CMakeFiles/px68k.dir/wav_write.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arcl_windows_x68k.dir\build.make CMakeFiles/arcl_windows_x68k.dir/wav_write.c.s
 .PHONY : wav_write.c.s
 
 # Help Target
@@ -2008,7 +2008,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... px68k
+	@echo ... arcl_windows_x68k
 	@echo ... E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.obj
 	@echo ... E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.i
 	@echo ... E_/arcl_windows_x68k/px68k-libretro/fmgen/fmg_wrap.s

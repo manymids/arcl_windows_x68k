@@ -117,13 +117,13 @@ set(FRONTEND_SOURCES
     wav_write.c
 )
 
-add_executable(px68k
+add_executable(arcl_windows_x68k
     ${CORE_C_SOURCES}
     ${CORE_CXX_SOURCES}
     ${FRONTEND_SOURCES}
 )
 
-target_include_directories(px68k PRIVATE
+target_include_directories(arcl_windows_x68k PRIVATE
     ${CORE_DIR}
     ${CORE_DIR}/libretro-common/include
     ${CORE_DIR}/libretro
@@ -134,14 +134,14 @@ target_include_directories(px68k PRIVATE
     ${SDL2_INCLUDE_DIRS}
     ${ZLIB_PC_INCLUDE_DIRS}
 )
-target_link_directories(px68k PRIVATE ${SDL2_LIBRARY_DIRS} ${ZLIB_PC_LIBRARY_DIRS})
+target_link_directories(arcl_windows_x68k PRIVATE ${SDL2_LIBRARY_DIRS} ${ZLIB_PC_LIBRARY_DIRS})
 
 # Matches px68k-libretro/Makefile.libretro's `platform=win` definitions
 # (C68K backend, VFS glue, Mercury sound board disabled on Windows).
 # ARCL_WATCHPOINT enables the minimal-diff hook points added to
 # x68k/mem_wrap.c for the L2 debug layer (x68k_mcp.md 0.1.1); undefining it
 # reverts mem_wrap.c to byte-identical upstream behavior.
-target_compile_definitions(px68k PRIVATE
+target_compile_definitions(arcl_windows_x68k PRIVATE
     __LIBRETRO__
     NO_MERCURY
     HAVE_C68K
@@ -163,15 +163,15 @@ set_source_files_properties(${CORE_CXX_SOURCES} PROPERTIES COMPILE_FLAGS "-fperm
 # uuid/setupapi/dinput8) come from `pkg-config --static --libs sdl2`, minus
 # -lSDL2main/-mwindows (this project keeps a plain console-subsystem main()
 # for --mcp's stdio JSON-RPC; SDL2main's WinMain would break that).
-target_link_libraries(px68k PRIVATE
+target_link_libraries(arcl_windows_x68k PRIVATE
     SDL2 z
     winmm imm32 ole32 oleaut32 version uuid setupapi dinput8
 )
 
 if(MINGW)
-    # -static: single self-contained px68k.exe (no SDL2.dll/zlib1.dll/
-    # libwinpthread-1.dll alongside it - x68k_mcp.md notes this as the
-    # "standalone exe" deployment option). Only Windows' own system DLLs
+    # -static: single self-contained arcl_windows_x68k.exe (no SDL2.dll/
+    # zlib1.dll/libwinpthread-1.dll alongside it - x68k_mcp.md notes this as
+    # the "standalone exe" deployment option). Only Windows' own system DLLs
     # (kernel32/user32/gdi32/msvcrt/...) remain as dependencies.
-    target_link_options(px68k PRIVATE -static)
+    target_link_options(arcl_windows_x68k PRIVATE -static)
 endif()

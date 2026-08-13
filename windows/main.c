@@ -181,7 +181,7 @@ static const mcp_tool_definition_t g_l1_tools[] = {
     { "arcl_host_dir",
       "Common (arcl) L1 Observation. Lists a host directory's contents (name/is_dir/size). This core has no "
       "WindrvXM-equivalent guest<->host share, so this only reads the host side at whatever permission the "
-      "px68k.exe process has; there is no explicit root restriction yet. Does not advance the machine.",
+      "arcl_windows_x68k.exe process has; there is no explicit root restriction yet. Does not advance the machine.",
       "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"string\"}},"
       "\"required\":[\"path\"],\"additionalProperties\":false}",
       MCP_LAYER_L1 }
