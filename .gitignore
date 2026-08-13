@@ -1,0 +1,30 @@
+# BIOS/CG-ROM firmware dumps - Sharp copyrighted, do not redistribute
+# (see px68k/system/keropi/ note in README.md)
+px68k/system/keropi/*.dat
+
+# Human68k OS boot disk image - Sharp copyrighted
+/HUMAN302.XDF
+
+# Runtime-generated, machine-specific files (absolute paths, save data)
+px68k/system/keropi/config
+**/sram.dat
+**/px68k-arcl.log
+
+# Build output - regenerate via the steps in README.md
+/windows/build/
+
+# Backup of px68k-libretro's original nested .git (upstream history, not needed in this repo's history - see commit message)
+/archive/px68k-libretro.git.bak/
+
+# Untracked by request: development artifacts, test disk image, and the
+# local convenience launcher - kept on disk, not part of this repo's history
+/archive/
+/CH68_101.2HD
+/run.bat
+
+# Local MCP client config - contains machine-specific absolute paths.
+# Copy .mcp.json.example to .mcp.json and edit it for your own setup.
+/.mcp.json
+
+# Same for the Codex CLI's MCP config.
+/.codex/config.toml

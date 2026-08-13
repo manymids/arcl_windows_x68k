@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "arcl_windows_x68k": {
+      "command": "windows/build/px68k.exe",
+      "args": [
+        "--mcp",
+        "--mcp-layers",
+        "all",
+        "--system-dir",
+        "px68k/system",
+        "<path-to-your-disk-image.XDF>"
+      ]
+    }
+  }
+}
