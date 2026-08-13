@@ -41,6 +41,17 @@ static char g_ram_var_value[16];
 static FILE *g_log_file;
 static double g_fps = 61.0; /* overwritten by retro_get_system_av_info() */
 
+/* The core defers its one-time m68000_init()/ROM-load pass to the first
+ * retro_run() call (libretro.c's `firstcall` branch: it runs pre_main() and
+ * returns without executing a frame). Until that first call, C68K's
+ * function-pointer table (Read_Word etc.) is still zeroed, so retro_reset()
+ * -> C68k_Reset() calling through it segfaults. g_core_primed tracks whether
+ * that first retro_run() has happened so px68k_frontend_reset() can force it
+ * before resetting (see px68k_frontend_run_frame()/px68k_frontend_reset()
+ * below). All callers hold control->lock (arcl_control.c), so plain int is
+ * fine - no atomics needed. */
+static int g_core_primed = 0;
+
 /* g_frame is written by core_video_refresh() on whichever thread is
  * currently calling retro_run() (the MCP handler thread during arcl_run,
  * or the resume worker thread during arcl_resume) and read by the GUI
@@ -540,10 +551,19 @@ void px68k_frontend_run_frame(void)
      * silently clobbered on frame 1. */
     Config.NoWaitMode = 1;
     retro_run();
+    g_core_primed = 1;
 }
 
 void px68k_frontend_reset(void)
 {
+    /* arcl_reset can be the very first control call, before any arcl_run.
+     * Force the core's deferred first-retro_run() init pass now so
+     * retro_reset() doesn't run through C68K's still-zeroed function
+     * pointers (see g_core_primed above). This priming call takes the
+     * core's `firstcall` branch, which returns without advancing the
+     * emulated machine, so it's safe to run here unconditionally. */
+    if (!g_core_primed)
+        px68k_frontend_run_frame();
     retro_reset();
 }
 
