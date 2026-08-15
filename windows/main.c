@@ -36,6 +36,7 @@ typedef struct {
     const char *dump_frame_path;
     int dump_after_frames;
     int mcp_mode;
+    int no_window;
     unsigned mcp_layers;
     int clock_mhz; /* 0 = unset, keep the core's own default (10Mhz) */
     int ram_mb;    /* 0 = unset, keep the core's own default (2MB) */
@@ -459,6 +460,8 @@ static int parse_args(int argc, char **argv, px68k_args_t *args)
             args->dump_after_frames = atoi(argv[++i]);
         else if (strcmp(argv[i], "--mcp") == 0)
             args->mcp_mode = 1;
+        else if (strcmp(argv[i], "--no-window") == 0)
+            args->no_window = 1;
         else if (strcmp(argv[i], "--mcp-layers") == 0 && i + 1 < argc)
         {
             if (!mcp_server_parse_layers(argv[++i], &args->mcp_layers))
@@ -800,9 +803,12 @@ static int run_mcp_mode(const px68k_args_t *args)
 
     memset(&gui, 0, sizeof(gui));
     gui.control = control;
-    gui.thread = CreateThread(NULL, 0, gui_thread_proc, &gui, 0, NULL);
-    if (!gui.thread)
-        fprintf(stderr, "warning: failed to start GUI thread; continuing MCP-only (no window)\n");
+    if (!args->no_window)
+    {
+        gui.thread = CreateThread(NULL, 0, gui_thread_proc, &gui, 0, NULL);
+        if (!gui.thread)
+            fprintf(stderr, "warning: failed to start GUI thread; continuing MCP-only (no window)\n");
+    }
 
     server.enabled_layers = args->mcp_layers;
     server.tools = all_tools;
@@ -835,7 +841,8 @@ int main(int argc, char **argv)
     if (!parse_args(argc, argv, &args))
     {
         fprintf(stderr,
-            "usage: %s [--mcp] [--mcp-layers l0,l1,...|all] [--system-dir DIR] [--clock MHZ] [--ram MB] [--dump-frame PATH.png] [--dump-after-frames N] CONTENT\n"
+            "usage: %s [--mcp] [--no-window] [--mcp-layers l0,l1,...|all] [--system-dir DIR] [--clock MHZ] [--ram MB] [--dump-frame PATH.png] [--dump-after-frames N] CONTENT\n"
+            "  --no-window   Run without opening an SDL2 GUI window (headless mode)\n"
             "  --clock MHZ   CPU clock speed: one of 10, 16, 25, 33, 66, 100 (default: 10)\n"
             "  --ram MB      Main RAM size in MB, 1-12 (default: 2)\n",
             argv[0]);
@@ -903,7 +910,50 @@ int main(int argc, char **argv)
         return result;
     }
 
-    /* Interactive (no --mcp): single-threaded loop, human-only. */
+    /* Headless non-MCP mode (e.g. batch --dump-frame without opening a window) */
+    if (args.no_window)
+    {
+        long frame_count = 0;
+        int target_frames = args.dump_frame_path ? args.dump_after_frames : 0;
+        if (target_frames <= 0)
+        {
+            fprintf(stderr, "error: --no-window in non-MCP mode requires --dump-frame\n");
+            arcl_opm_shadow_shutdown();
+            arcl_watchpoint_shutdown();
+            px68k_frontend_shutdown();
+            return 1;
+        }
+
+        while (frame_count < target_frames)
+        {
+            px68k_frontend_run_frame();
+            frame_count++;
+        }
+
+        if (args.dump_frame_path)
+        {
+            px68k_frame_t frame = px68k_frontend_get_frame();
+            if (frame.valid)
+            {
+                bool ok = px68k_write_png_rgb565(args.dump_frame_path, frame.pixels,
+                                                  frame.width, frame.height, frame.stride);
+                fprintf(stderr, "dump-frame: %s (%ux%u) -> %s\n",
+                        ok ? "wrote" : "FAILED to write", frame.width, frame.height,
+                        args.dump_frame_path);
+            }
+            else
+            {
+                fprintf(stderr, "dump-frame: no valid frame yet after %ld run_frame() calls\n", frame_count);
+            }
+        }
+
+        arcl_opm_shadow_shutdown();
+        arcl_watchpoint_shutdown();
+        px68k_frontend_shutdown();
+        return 0;
+    }
+
+    /* Interactive (no --mcp, no --no-window): single-threaded loop, human-only. */
     {
         SDL_Window *window;
         SDL_Renderer *renderer;

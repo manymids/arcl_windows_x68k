@@ -94,7 +94,7 @@ In MCP mode, the executable processes newline-delimited JSON-RPC 2.0 through sta
 windows\build\arcl_windows_x68k.exe --mcp --mcp-layers all --system-dir px68k\system C:\X68000\HUMAN302.XDF
 ```
 
-The SDL2 window remains available in MCP mode. A person can observe the agent's actions and use `F5` to pause or resume execution. The emulator starts paused; it advances only after the client calls `arcl_run` or `arcl_resume`.
+The SDL2 window remains available by default in MCP mode. A person can observe the agent's actions and use `F5` to pause or resume execution. If you prefer to run headless in the background without opening a GUI window, pass the `--no-window` option. The emulator starts paused; it advances only after the client calls `arcl_run` or `arcl_resume`.
 
 ### MCP client configuration
 
