@@ -174,6 +174,8 @@ static int char_to_retrok(unsigned char c, unsigned *code, int *shift)
     case '?':  *code = RETROK_SLASH;  *shift = 1; return 1; /* confirmed */
     case ';':  *code = RETROK_SEMICOLON; *shift = 0; return 1; /* confirmed */
     case '+':  *code = RETROK_SEMICOLON; *shift = 1; return 1; /* confirmed */
+    case ':':  *code = RETROK_COLON;     *shift = 0; return 1;
+    case '*':  *code = RETROK_COLON;     *shift = 1; return 1;
     case '@':  *code = RETROK_BACKQUOTE; *shift = 0; return 1; /* confirmed */
     case '`':  *code = RETROK_CARET;     *shift = 1; return 1; /* confirmed (not a typo: see note above) */
     case '[':  *code = RETROK_LEFTBRACKET;  *shift = 0; return 1; /* confirmed */
@@ -182,7 +184,7 @@ static int char_to_retrok(unsigned char c, unsigned *code, int *shift)
     case '|':  *code = RETROK_BACKSLASH;    *shift = 1; return 1; /* confirmed */
     case ']':  *code = RETROK_RIGHTBRACKET; *shift = 0; return 1; /* confirmed */
     case '}':  *code = RETROK_RIGHTBRACKET; *shift = 1; return 1; /* confirmed */
-    default:   return 0; /* includes ':' '*' '^' '_' '~', see comment above */
+    default:   return 0; /* includes '^' '_' '~', see comment above */
     }
 }
 
